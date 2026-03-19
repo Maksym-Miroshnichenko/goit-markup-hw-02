@@ -25,6 +25,7 @@ ul{
 body {
     background: var(--white);
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 /* header */
 /* header {
@@ -48,6 +49,9 @@ a{
 .menu-nav {
     width: 261px;
     height: 24px;
+}
+.menu-nav:hover{
+    color: var(--ocean);
 }
 
 .logo{
@@ -75,6 +79,7 @@ a{
 }
 
 .address-konto{
+    font-style: normal
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -191,8 +196,7 @@ button:hover{
     height: 260px;
 } */
 
-.sec-of-h{
-    
+.sec-ot-h{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
