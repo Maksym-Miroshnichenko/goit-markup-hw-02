@@ -17,6 +17,7 @@
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
 }
+
 ul{
     list-style-type: none;
 }
@@ -42,6 +43,7 @@ a{
     color: var(--navy-blue);
     text-decoration: none;
 }
+
 
 .menu-nav {
     width: 261px;
@@ -102,8 +104,18 @@ button{
     width: 169px;
     height: 56px;
 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--white);
+
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
+}
+
+button:hover{
+    background: var(--ocean);
+    cursor: pointer;
 }
 
 .button{
@@ -174,10 +186,10 @@ button{
     background: var(--white);
 }
 
-.sec-ot-img{
+/* .sec-ot-img{
     width: 264px;
     height: 260px;
-}
+} */
 
 .sec-of-h{
     
@@ -229,10 +241,10 @@ height: 420px;
     height: 420px;
 }
 
-.sec-op-img{
+/* .sec-op-img{
     width: 360px;
     height: 300px;
-}
+} */
 
 .sec-op-h{
 font-weight: 500;
@@ -274,4 +286,13 @@ footer{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
+}
+
+.footer-p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
 }
