@@ -211,10 +211,10 @@ button:focus{
     background: var(--white);
 }
 
-.sec-ot-img{
+/* .sec-ot-img{
     width: 264px;
     height: 260px;
-}
+} */
 
 .sec-ot-h{
     font-weight: 500;
