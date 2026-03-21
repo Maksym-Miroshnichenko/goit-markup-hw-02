@@ -49,15 +49,15 @@ a{
 /* .menu-nav {
     width: 261px;
     height: 24px;
-} */
-/* .menu-nav:hover{
+}  */
+
+.menu-nav:hover{
     color: var(--ocean);
-    cursor: pointer;
 }
+
 .menu-nav:focus{
     color: var(--ocean);
-    cursor: pointer;
-} */
+}
 
 .logo{
     font-weight: 700;
@@ -139,7 +139,8 @@ button{
 
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 button:hover{
@@ -195,7 +196,7 @@ button:focus{
 .sec-ot-ih{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
@@ -245,7 +246,7 @@ button:focus{
     
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
@@ -263,10 +264,10 @@ height: 420px;
     height: 420px;
 } */
 
-.sec-op-img{
+/* .sec-op-img{
     width: 360px;
     height: 300px;
-}
+} */
 
 .sec-op-h{
     font-weight: 500;
@@ -314,7 +315,7 @@ footer{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.17;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
 }
