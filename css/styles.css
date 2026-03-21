@@ -50,19 +50,19 @@ a{
     width: 261px;
     height: 24px;
 } */
-.menu-nav:hover{
+/* .menu-nav:hover{
     color: var(--ocean);
     cursor: pointer;
 }
 .menu-nav:focus{
     color: var(--ocean);
     cursor: pointer;
-}
+} */
 
 .logo{
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--navy-blue);
@@ -82,7 +82,7 @@ a{
 .logo-span{
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
@@ -120,7 +120,7 @@ a{
 .hero-big{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.5;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
@@ -151,15 +151,6 @@ button:focus{
     cursor: pointer;
 }
 
-.button{
-    
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--white);
-    
-}
 /* Our Features */
 
 /* .sec-of{
@@ -177,7 +168,7 @@ button:focus{
 .sec-of-f-h{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
@@ -204,7 +195,7 @@ button:focus{
 .sec-ot-ih{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
@@ -227,7 +218,7 @@ button:focus{
 .sec-ot-h{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
@@ -254,7 +245,7 @@ button:focus{
     
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
@@ -280,7 +271,7 @@ height: 420px;
 .sec-op-h{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
@@ -323,7 +314,7 @@ footer{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--cloud);
 }
